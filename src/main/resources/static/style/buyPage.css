@@ -1,0 +1,83 @@
+
+body {
+    padding-top: 0;
+    font-family: 'Comfortaa', sans-serif;
+    font-size: 22px;
+    background: linear-gradient(163.71deg, #FDD5DB 45.62%, rgba(255, 226, 231, 0) 900.62%);
+}
+.headers{
+    font-size: 18px;
+}
+/*.headerColumn{*/
+/*    background-color: green;*/
+/*    border: 1px double black;*/
+/*}*/
+.PhoneNumberOne{
+    padding-top: 15px;
+}
+
+#EVERYDAY{
+    display: flex;
+    flex-direction: column-reverse;
+    padding-top: 10px;
+}
+#DELIVERY{
+    padding-top: -2px;
+}
+.nav{
+    align-items: center;
+    text-align: center;
+    height: 60px;
+    background: linear-gradient(89.8deg, #F46B82 2.38%, #F59AA9 72.46%, #F7BDC7 110.1%);
+    border-radius: 5px;
+}
+
+
+
+.logo{
+    font-family: Alfa Slab One, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 65px;
+    line-height: 89px;
+    /* identical to box height */
+    letter-spacing: 0.095em;
+}
+.gifts{
+    text-align: center;
+}
+h1{
+    display: inline;
+}
+h3{
+    display: inline;
+}
+
+#logo{
+    max-width: 100%;
+}
+.shopItemThumbnail{
+    border-radius: 10px;
+}
+
+.UIButton{
+    width: 45%;
+    height: 35px;
+    background: #F7BDC7;
+    border-radius: 20px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 19px;
+    /* identical to box height */
+
+
+    color: #18273D;
+}
+.BuyAndDetailsButtons{
+    display: flex;
+    justify-content: space-between;
+}
+#LogOut{
+    display: none;
+}

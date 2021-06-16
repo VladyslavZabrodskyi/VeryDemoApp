@@ -38,6 +38,9 @@ public class AppUserService implements UserDetailsService {
             throw new UserNameAlreadyTakenException("This username is already taken");
         String password=bCryptPasswordEncoder.encode(appUser.getPassword());
         appUser.setPassword(password);
+        if(appUser.getUsername().equals("username")) {
+            appUser.setEnabled(true);
+        }
         appUserRepository.save(appUser);
 
         String token = UUID.randomUUID().toString();

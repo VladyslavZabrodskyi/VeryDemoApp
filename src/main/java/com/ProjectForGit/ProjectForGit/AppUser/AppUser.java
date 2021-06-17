@@ -15,6 +15,7 @@ import java.util.Collection;
 @Entity
 @Table(name="app_user")
 public class AppUser implements UserDetails {
+
     @Id
     @GeneratedValue(
             strategy = GenerationType.SEQUENCE,
@@ -24,7 +25,11 @@ public class AppUser implements UserDetails {
 
     @Enumerated(EnumType.STRING)
     private AppUserRole role;
+
+    @Column(nullable = false)
     private String username;
+
+    @Column(nullable = false)
     private String password;
 
     private boolean isEnabled=false;
